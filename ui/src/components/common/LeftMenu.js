@@ -62,10 +62,26 @@ const menuPaths = {
       icon: 'fa-code-fork'
     },
     {
-      label: 'Tasks',
+      label: 'Modules',
       href: '/workflow/metadata/tasks',
       icon: 'fa-tasks'
     },
+     {
+       header: true,
+       label: 'Flow Metrics',
+       href: '/metrics',
+       icon: 'fa-star'
+     },
+     {
+       label: 'Workflow Metrics',
+       href: '/workflow/queue/data',
+       icon: 'fa-exchange'
+     },
+     {
+       label: 'Module Metrics',
+       href: '/module/metrics',
+       icon: 'fa-exchange'
+     },
     {
       header: true,
       label: 'Workflow Events',
@@ -150,10 +166,10 @@ class LeftMenu extends Component {
     return (
       <div className="left-menu" style={{ width }}>
         <div className="logo textual pull-left">
-          <a href="/" title="Conductor">
+          <a href="/" title="Riptide">
             <h4>
               <i className={loading ? 'fa fa-bars fa-spin fa-1x' : 'fa fa-bars'} />{' '}
-              {loading || minimize ? '' : 'Conductor'}
+              {loading || minimize ? '' : 'Riptide'}
             </h4>
           </a>
         </div>

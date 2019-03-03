@@ -42,6 +42,7 @@ dependencies {
 
     //Swagger
     compile "io.swagger:swagger-jersey-jaxrs:${revSwagger}"
+    compile group: 'javax.annotation', name: 'javax.annotation-api', version: '1.2-b01'
 }
 
 shadowJar {

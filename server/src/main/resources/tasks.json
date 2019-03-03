@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Gateway Activation (CAAP)",
+    "description": "Provision and activate gateway",
+    "inputKeys": [
+      "cmMac"
+    ],
+    "outputKeys": [
+      "cmMac"
+    ],
+    "retryCount": 1,
+    "timeoutSeconds": 0,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 3600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1
+  },
+  {
+    "name": "Look up device make and model (BACC)",
+    "description": "Provision and activate gateway",
+    "inputKeys": [
+      "cmMac"
+    ],
+    "outputKeys": [
+      "cmMac"
+    ],
+    "retryCount": 1,
+    "timeoutSeconds": 0,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 3600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1
+  },
+  {
+    "name": "Get XboAccountId",
+    "description": "Provision and activate gateway",
+    "inputKeys": [
+      "cmMac"
+    ],
+    "outputKeys": [
+      "cmMac"
+    ],
+    "retryCount": 1,
+    "timeoutSeconds": 0,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 3600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1
+  },
+  {
+    "name": "Associate Config Set",
+    "description": "Provision and activate gateway",
+    "inputKeys": [
+      "cmMac"
+    ],
+    "outputKeys": [
+      "cmMac"
+    ],
+    "retryCount": 1,
+    "timeoutSeconds": 0,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 3600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1
+  },
+  {
+    "name": "Submit reboot request",
+    "description": "Provision and activate gateway",
+    "inputKeys": [
+      "cmMac"
+    ],
+    "outputKeys": [
+      "cmMac"
+    ],
+    "retryCount": 1,
+    "timeoutSeconds": 0,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 3600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1
+  },
+  {
+    "name": "Gateway Provision (CRPL)",
+    "description": "Provision and activate gateway",
+    "inputKeys": [
+      "cmMac"
+    ],
+    "outputKeys": [
+      "cmMac"
+    ],
+    "retryCount": 1,
+    "timeoutSeconds": 0,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 3600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1
+  }
+]

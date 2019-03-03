@@ -20,6 +20,8 @@ class TaskMetaList extends React.Component {
   render() {
     const { taskDefs } = this.state;
 
+    console.log(taskDefs);
+
     const retries = (_, row) => {
       return row.retryLogic === 'FIXED' ? `${row.retryLogic} (${row.retryDelaySeconds} seconds)` : '';
     };
@@ -112,7 +114,7 @@ class TaskMetaList extends React.Component {
 
     return (
       <div className="ui-content">
-        <h1>Task Definitions</h1>
+        <h1>Module Definitions</h1>
         <BootstrapTable data={taskDefs} striped hover search exportCSV={false} pagination={false}>
           <TableHeaderColumn dataField="name" isKey dataAlign="left" dataSort dataFormat={editor}>
             Name/Version

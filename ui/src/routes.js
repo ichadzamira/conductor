@@ -5,6 +5,7 @@ import EventExecs from './components/event/EventExecs';
 import WorkflowDetails from './components/workflow/executions/WorkflowDetails';
 import WorkflowMetaList from './components/workflow/WorkflowMetaList';
 import TasksMetaList from './components/workflow/tasks/TasksMetaList';
+import TasksMetrics from './components/workflow/tasks/TasksMetrics';
 import QueueList from './components/workflow/queues/QueueList';
 import WorkflowMetaDetails from './components/workflow/WorkflowMetaDetails';
 import Intro from './components/common/Home';
@@ -21,6 +22,7 @@ const routeConfig = [
       { path: 'workflow/queue/data', component: QueueList },
       { path: 'workflow', component: Workflow },
       { path: 'workflow/id/:workflowId', component: WorkflowDetails },
+      { path: 'module/metrics', component: TasksMetrics },
       { path: 'events', component: Event },
       { path: 'events/executions', component: EventExecs },
       { path: 'help', component: Help }
